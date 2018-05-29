@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href='../css/index.css' rel='stylesheet' type='text/css' />
+    <!--下面是表格的上方的样式-->
+    <link href='../css/memlist.css' rel='stylesheet' type='text/css' />
+    <!--  下面的引入是表格的样式-->
+    <link href='../css/mfrom.css' rel='stylesheet' type='text/css' />
+    <link href='../css/order.css' rel='stylesheet' type='text/css' />
+    <link href='../css/Order down.css' rel='stylesheet' type='text/css' />
+</head>
+
+<body>
+    <div id='wraper'>
+        <div id='header'>
+            <div id='header_left'>
+                <a href='javascript:'>后台管理系统</a>
+                <img class='hradLift-img' src='../img/header-nav.jpg' />
+                <div>+新增
+                    <span></span>
+                </div>
+                <ul class='leftList'>
+                    <li>
+                        <img src='../img/list-menu.jpg' /> 资讯
+                    </li>
+                    <li>
+                        <img src='../img/list-menu2.jpg' /> 图片
+                    </li>
+                    <li>
+                        <img src='../img/list-menu3.jpg' /> 用户
+                    </li>
+                </ul>
+            </div>
+            <div id='header_right'>
+                <a href='javascript:'>前台首页</a>
+                <div>admin
+                    <span></span>
+                </div>
+                <ul class='rightList'>
+                    <li>个人信息</li>
+                    <li>切换账号</li>
+                    <li>退出</li>
+                </ul>
+            </div>
+        </div>
+        <div id='content'>
+            <div id='main-left'>
+                <div>
+                    <span>会员管理
+                        <i>></i>
+                    </span>
+                    <ul>
+                        <li>>会员列表</li>
+                        <li>>会员删除</li>
+                    </ul>
+                </div>
+                <div>
+                    <span>订单管理
+                        <i>></i>
+                    </span>
+                    <ul>
+                        <li>>订单查询</li>
+                        <li>>我要下单</li>
+                    </ul>
+                </div>
+                <div>
+                    <span>运单追踪
+                        <i>></i>
+                    </span>
+                    <ul>
+                        <li>>运单追踪</li>
+                        <li>>添加运单</li>
+                    </ul>
+                </div>
+                <div>
+                    <span>运费时效查询
+                        <i>></i>
+                    </span>
+                    <ul>
+                        <li>>运费时效查询</li>
+                        <li>>添加时效</li>
+                    </ul>
+                </div>
+                <div>
+                    <span>收寄范围查询
+                        <i>></i>
+                    </span>
+                    <ul>
+                        <li>>收寄范围查询</li>
+                        <li>>添加收寄范围</li>
+                    </ul>
+                </div>
+                <div>
+                    <span>收寄标准查询
+                        <i>></i>
+                    </span>
+                    <ul>
+                        <li>>收寄标准查询</li>
+                        <li>>添加收寄标准</li>
+                    </ul>
+                </div>
+                <div>
+                    <span>管理员管理
+                        <i>></i>
+                    </span>
+                    <ul>
+                        <li>>管理员列表</li>
+                        <li>>权限管理</li>
+                    </ul>
+                </div>
+                <div>
+                    <span>系统统计
+                        <i>></i>
+                    </span>
+                    <ul>
+                        <li>>折线图</li>
+                        <li>>柱状图</li>
+                        <li>>地图</li>
+                        <li>>饼图</li>
+                        <li>>雷达图</li>
+                        <li>>k线图</li>
+                        <li>>热力图</li>
+                        <li>>仪表图</li>
+                    </ul>
+                </div>
+            </div>
+            <div id='main-right'>
+                <p class='free'>免费预约上门取件</p>
+                <div id='mail'>
+                    <div class='mail_place'>
+                        <span>寄往中国大陆</span>
+                        <span>寄往港澳台</span>
+                    </div>
+                    <div class='main_new'>
+                        <div class='mail_new'>
+                            <p class='mail_header'>
+                                <span>
+                                    <img src='../img/jijian.jpg' />
+                                    <span>寄件人信息</span>
+                                </span>
+                                <span>
+                                    标*为必填项
+                                </span>
+                            </p>
+                            <div class='mail_content'>
+                                <div>
+                                    <span>*姓名：</span>
+                                    <input type='text' placeholder="请填写联系人姓名" />
+                                </div>
+                                <div>
+                                    <span>寄件公司：</span>
+                                    <input type='text' placeholder="请填写公司名称" />
+                                </div>
+                                <div>
+                                    <span>*手机</span>
+                                    <input type='text' placeholder="请填写手机号码" />
+                                </div>
+                                <div>
+                                    <span>*验证码</span>
+                                    <input type='text' placeholder="请输入验证码" />
+                                    <button>获取验证码</button>
+                                </div>
+                                <div>
+                                    <span>*上门地址</span>
+                                    <input type='text' placeholder="请选择所在地区：例如：福建省-福州市-长乐区" />
+                                    <input type='text' placeholder="请填写所在街道及详细地址" />
+                                </div>
+                            </div>
+                        </div>
+                        <div id='collection'>
+                            <p class='collection_new'>
+                                <span>
+                                    <img src='../img/collection.jpg' />
+                                    <span>收件人信息</span>
+                                </span>
+                                <span>
+                                    <img src='../img/address.jpg' />
+                                    使用地址簿
+                                </span>
+                            </p>
+                            <div class='collection_content'>
+                                <div>
+                                    <span>*姓名：</span>
+                                    <input type='text' placeholder="请填写联系人姓名" />
+                                </div>
+                                <div>
+                                    <span>收件公司：</span>
+                                    <input type='text' placeholder="请填写公司名称" />
+                                </div>
+                                <div>
+                                    <span>*手机</span>
+                                    <input type='text' placeholder="请填写手机号码" />
+                                </div>
+                                <div>
+                                    <span>*上门地址</span>
+                                    <input type='text' placeholder="请选择所在地区：例如：福建省-福州市-长乐区" />
+                                    <input type='text' placeholder="请填写所在街道及详细地址" />
+                                </div>
+                            </div>
+                        </div>
+                        <div id='take'>
+                            <p class='take_time'>
+                                <span>
+                                    <img src='../img/take.jpg' />
+                                    <span>上门取件时间</span>
+                                </span>
+                            </p>
+                            <div class='take_content'>
+                                <div>
+                                    <span>*上门时间：</span>
+                                    <input type='text' placeholder="请选择您合适的时间" />
+                                </div>
+                            </div>
+                            <div>
+                                <span>托寄物：</span>
+                                <input type='text' / >
+                            </div>
+                            <div>
+                                <span>付款方式：</span>
+                                <input type='text' / >
+                            </div>
+                            <div class='weight'>
+                                <span>预估重量：</span>
+                                <div>
+                                    <i class='weight_down'>-</i>
+                                    <input type='text' value='1.0'/>
+                                    <i class='weight_up'>+</i>
+                                </div>
+                            </div>
+                            <!-- <div>
+                                <input type='text' placeholder="其他想对小哥说的话(如：物品体积较大)" />
+                            </div> -->
+                        </div>
+                        <div id='mailing'>
+                             <div class='premium '>
+                                <span>附加服务：</span>
+                                <div>
+                                    <input type='checkbox'/>
+                                    <span>保价服务</span>
+                                </div>
+                                <p>
+                                    温馨提示：您当前为选择保价服务，若在寄递过程中发生丢损，您最高可获得7倍运费的赔偿
+                                </p>
+                            </div>
+                            <div class='agree'>
+                                <input type='checkbox' />
+                                <p>我同意<span>《运单背书条款》</span></p>
+                            </div>
+                        </div>
+                        <div class='placrorder'>下单</div>
+                    </div>
+                </div>
+            </div>
+        <div id='footer'></div>
+    </div>
+</body>
+
+</html>

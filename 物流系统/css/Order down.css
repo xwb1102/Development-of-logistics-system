@@ -1,0 +1,177 @@
+.free{
+    height:30px;
+    font-size:24px;
+    margin-left:90px;
+}
+#mail{
+    margin:10px 0 0 30px;
+}
+.mail_place{
+    font-size:20px;
+    font-weight:bold;
+    margin-left:60px;
+}
+.mail_place span:nth-of-type(1){
+    border-bottom:2px solid red;
+    margin-right:10px;
+}
+.main_new{
+    margin-top:10px;
+    margin-left:60px;
+    width:888px;
+}
+.mail_header{
+    font-size:16px;
+}
+.mail_header span:nth-of-type(2){
+    float:right;
+    font-size:12px;
+    color:red;
+}
+.mail_content{
+    margin-top:10px;
+}
+.main_new input {
+    width:200px;
+    height:26px;
+    padding-left:6px;
+    border-radius: 3px;
+    border:1px solid #ccc;
+}
+.mail_content div{
+    display:inline-block;
+    margin-right:40px;
+}
+.mail_content div:nth-of-type(3){
+    margin:0;
+}
+.mail_content div:nth-of-type(4) {
+    margin: 20px 100px 20px 0;
+}
+.mail_content div:nth-of-type(5) input:nth-of-type(1) {
+    width:800px;
+    margin-bottom:20px;
+    margin-left:10px;
+}
+.mail_content div:nth-of-type(5) input:nth-of-type(2) {
+    width: 800px;
+    margin-left: 77px;
+}
+#collection{
+    margin-top:10px;
+}
+.collection_new{
+    font-size:16px;
+}
+.collection_new span:nth-of-type(2){
+    font-size:12px;
+    float:right;
+}
+.collection_content div{
+    display: inline-block;
+    margin-right:40px;
+    margin-top:20px;
+}
+.collection_content div:nth-of-type(3){
+    margin:0;
+}
+.collection_content div:nth-of-type(4) input:nth-of-type(1) {
+    width: 800px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.collection_content div:nth-of-type(4) input:nth-of-type(2) {
+    width: 800px;
+    margin-left: 77px;
+}
+#take{
+    margin-top:10px;
+}
+#take div{
+    display: inline-block;
+}
+.take_time{
+    font-size:16px;
+}
+.take_content div{
+    margin:10px 0;
+}
+.premium input{
+    width:16px;
+    height:16px;
+}
+.premium div{
+    /* float:right; */
+    display: inline-block;
+}
+.premium p{
+    color:red;
+    /* margin-left:200px; */
+    float:right;
+    margin-right:60px;
+}
+.weight{
+    margin:10px 0;
+}
+.weight div{
+    width:88px;
+    height:20px;
+    border-radius: 3px;
+    position: relative;
+}
+.weight div input{
+    display:inline-block;
+    width:76px;
+    height:20px;
+    text-align: center;
+    line-height:20px;
+}
+.weight_down{
+    left:-4px;
+}
+.weight_down,.weight_up{
+    width:26px;
+    height:26px;
+    line-height:26px;
+    text-align: center;
+    background:#ccc;
+    position: absolute;
+    border-radius: 3px;
+    top:-1px;
+    font-style:normal;
+    cursor: pointer;
+}
+.weight_up{
+    right:0;
+}
+.mailing{
+    margin-top:10px;
+}
+.agree{
+    overflow: hidden;
+    margin-top:20px;
+    margin-left:260px;
+}
+.agree input{
+    width:16px;
+    height:16px;
+    float:left;
+}
+.agree p{
+    float:left;
+}
+.agree p span{
+    color:red;
+}
+.placrorder{
+    width:100px;
+    height:30px;
+    background:red;
+    color:#fff;
+    border-radius: 3px;
+    line-height:30px;
+    text-align: center;
+    margin-top:20px;
+    margin-left:300px;
+    cursor: pointer;
+}

@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href='../css/index.css' rel='stylesheet' type='text/css' />
+    <!--下面是表格的上方的样式-->
+    <link href='../css/memlist.css' rel='stylesheet' type='text/css' />
+    <!--  下面的引入是表格的样式-->
+    <link href='../css/mfrom.css' rel='stylesheet' type='text/css' />
+    <link href='../css/order.css' rel='stylesheet' type='text/css' />
+    <link href='../css/Order down.css' rel='stylesheet' type='text/css' />
+    <link href='../css/tarck.css' rel='stylesheet' type='text/css' />
+</head>
+
+<body>
+    <div id='wraper'>
+        <div id='header'>
+            <div id='header_left'>
+                <a href='javascript:'>后台管理系统</a>
+                <img class='hradLift-img' src='../img/header-nav.jpg' />
+                <div>+新增
+                    <span></span>
+                </div>
+                <ul class='leftList'>
+                    <li>
+                        <img src='../img/list-menu.jpg' /> 资讯
+                    </li>
+                    <li>
+                        <img src='../img/list-menu2.jpg' /> 图片
+                    </li>
+                    <li>
+                        <img src='../img/list-menu3.jpg' /> 用户
+                    </li>
+                </ul>
+            </div>
+            <div id='header_right'>
+                <a href='javascript:'>前台首页</a>
+                <div>admin
+                    <span></span>
+                </div>
+                <ul class='rightList'>
+                    <li>个人信息</li>
+                    <li>切换账号</li>
+                    <li>退出</li>
+                </ul>
+            </div>
+        </div>
+        <div id='content'>
+            <div id='main-left'>
+                <div>
+                    <span>会员管理
+                        <i>></i>
+                    </span>
+                    <ul>
+                        <li>>会员列表</li>
+                        <li>>会员删除</li>
+                    </ul>
+                </div>
+                <div>
+                    <span>订单管理
+                        <i>></i>
+                    </span>
+                    <ul>
+                        <li>>订单查询</li>
+                        <li>>我要下单</li>
+                    </ul>
+                </div>
+                <div>
+                    <span>运单追踪
+                        <i>></i>
+                    </span>
+                    <ul>
+                        <li>>运单追踪</li>
+                    </ul>
+                </div>
+                <div>
+                    <span>运费时效查询
+                        <i>></i>
+                    </span>
+                    <ul>
+                        <li>>运费时效查询</li>
+                        <li>>添加时效</li>
+                    </ul>
+                </div>
+                <div>
+                    <span>收寄范围查询
+                        <i>></i>
+                    </span>
+                    <ul>
+                        <li>>收寄范围查询</li>
+                        <li>>添加收寄范围</li>
+                    </ul>
+                </div>
+                <div>
+                    <span>管理员管理
+                        <i>></i>
+                    </span>
+                    <ul>
+                        <li>>管理员列表</li>
+                        <li>>权限管理</li>
+                    </ul>
+                </div>
+                <div>
+                    <span>系统统计
+                        <i>></i>
+                    </span>
+                    <ul>
+                        <li>>折线图</li>
+                        <li>>柱状图</li>
+                        <li>>地图</li>
+                        <li>>饼图</li>
+                        <li>>雷达图</li>
+                        <li>>k线图</li>
+                        <li>>热力图</li>
+                        <li>>仪表图</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- <div id='main-right'>
+<div class="delivery-view shipping-detail-page">
+    <div class="main-content-row shipping-search-detail no-header">
+        <div class="row">
+            <div class="col-xs-8">
+                <ul class="navigation-tabs">
+                    <li data-tab="bill-number" class="current" tabindex="0" aria-checked="true">
+                        按照单号</li>
+                    <li data-tab="phone-number" tabindex="0" aria-checked="false">
+                        按照手机号</li>
+                </ul>
+                <ul class="tab-content">
+                    <li data-tab="bill-number" class="bill-number-wrapper" style="display: list-item;">
+                        <div class="input-group">
+                            <div class="tokenfield form-control">
+                                <input type="text" class="form-control tokenfield" placeholder="最多可同时查询20条运单号，请以逗号、空格或回车键隔开。"
+                                    tabindex="-1" style="position: absolute; left: -10000px;">
+                                <input type="text" tabindex="-1" style="position: absolute; left: -10000px;">
+                                <div class="token" data-value="456289265852">
+                                    <span class="token-label" style="max-width: 397px;">456289265852</span>
+                                    <a href="#" class="close" tabindex="-1">×</a>
+                                </div>
+                                <input type="text" class="token-input" autocomplete="off" placeholder="" id="1527601917389197-tokenfield"
+                                    tabindex="0" style="min-width: 90px; width: 304.625px;">
+                            </div>
+                            <span class="input-group-addon clear-inputs">
+                                <span class="sfi sfi-trash"></span>
+                            </span>
+                        </div>
+                        <div class="bill-number-list-content row" style="display: block;">
+                            <ul class="col-xs-8">
+                                <li>
+                                    <a class="bill" href="javascript:void(0)" data-bill="456289265852">456289265852</a>
+                                </li>
+                            </ul>
+                            <div class="toggleWrapper col-xs-4">
+                                <a href="javascript:void(0)">最近查询记录
+                                    <span class="arrow up">
+                                        <span class="sub"></span>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div id="TCaptcha" style="width:310px;height:40px;display: none"></div>
+                        <div class="verification-code">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="请输入验证码">
+
+                            </div>
+                            <img id="validation-image">
+                            <div class="error validation-code-error" style="display: none;">
+                                请输入正确的验证码。</div>
+                        </div>
+
+
+                        <div class="error" data-error="bill-number-format" style="display: none;">
+                            运单号只能为12位数字。</div>
+                        <div class="error" data-error="limit-exceeded" style="display: none;">
+                            您已输入超过20条运单号，系统将自动截取并显示前20条运单号的追踪信息。</div>
+                        <div class="error" data-error="server-network" style="display: none;">
+                            服务器暂不可用，请稍后再试。</div>
+                        <button id="queryBill" type="button" class="primary-button" data-loading-text="查询中...">
+                            查询</button>
+                    </li>
+                    <li data-tab="phone-number" class="phone-number-wrapper" style="display: none;">
+                        <ul>
+                            <li>
+                                <dl>
+                                    <dt>
+                                        <font color="red">*</font>
+                                        手机号码</dt>
+                                    <dd class="long">
+                                        <input type="text" placeholder="请输入运单上的手机号码" class="form-control phone-number-input"
+                                            data-validation-regexp=":phone">
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>
+                                        寄件时间</dt>
+                                    <dd class="long waybill-date-input">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control date-picker readonly" placeholder="请选择寄件时间" readonly="readonly">
+                                            <span class="input-group-addon date-picker-toggle">
+                                                <span class="sfi sfi-time"></span>
+                                            </span>
+                                        </div>
+                                        <div class="date-picker-wrapper toggle-plugins" style="display: none;"></div>
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>
+                                        <font color="red">*</font>
+                                        验证码</dt>
+                                    <dd>
+                                        <input type="text" placeholder="请输入验证码" class="form-control phone-number-validate-code">
+                                        <button type="button" class="primary-button validation-code count-down-button disabled" data-count-down-time="30" data-count-down-title="重新获取%s">
+                                            获取验证码</button>
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li id="mobile-query-show-register-member" style="display:none">
+                                <dl>
+                                    <dt></dt>
+                                    <dd class="long">
+                                        <label data-parsley-priority-enabled="">
+                                            <input type="checkbox" name="mobileQueryRegisterMember" id="mobileQueryRegisterMember"
+                                                checked=""> 注册成为
+
+                                            <a target="_blank" href="http://owf.sf-express.com/cn/sc/about_us/member_interests/Individual_members/introduce/index.html"
+                                                style="color:red">顺丰会员</a> ,并同意
+                                            <a target="_blank" href="http://owf.sf-express.com/cn/sc/about_us/member_interests/index.html"
+                                                style="color:red">会员服务条款</a>
+                                        </label>
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li class="error" data-error="not-found">很抱歉，暂未查询到与您提供的信息相匹配的运单号码，如需要获得更多 的信息请咨询“在线客服”或拨中国大陆服务热线：95338。</li>
+                            <li class="error" data-error="server-network">服务器暂不可用，请稍后再试。</li>
+                            <li class="error" data-error="limit-reached">该手机号本日已达到发送短信上限</li>
+                            <li class="error" data-error="validation-code">您输入的验证码有误，请重新输入。</li>
+                            <li class="error" data-error="request-timeout">请求超时，请稍后再试。</li>
+                            <li class="error" data-error="limit-send-sms">该手机号本日已达到发送短信上限</li>
+                            <li>
+                                <button id="queryBillByPhone" type="button" class="primary-button fetch-result disabled" data-loading-text="查询中...">
+                                    查询</button>
+                            </li>
+                        </ul>
+                    </li>
+                    <li data-tab="exam-number" class="exam-number-wrapper" style="display: none;">
+                        <div class="input-group">
+                            <input type="text" class="form-control exam" placeholder="请正确输入准考证号">
+                            <span class="input-group-addon clear-inputs">
+                                <span class="sfi sfi-trash"></span>
+                            </span>
+                        </div>
+                        <div class="verification-code">
+                            <div class="input-group" style="margin: 0;">
+                                <input type="text" class="form-control" placeholder="请输入验证码请输入验证码">
+
+                            </div>
+                            <img id="validation-image2">
+                            <div class="clear" style="clear: both;"></div>
+                            <div class="error validation-code-error">*验证码有误。</div>
+                        </div>
+                        <div class="error" data-error="bill-number-format">*请正确输入准考证号</div>
+                        <div class="error" data-error="server-network">服务器暂不可用，请稍后再试。</div>
+                        <button type="button" class="primary-button" data-loading-text="查询中..." style="margin-top: 10px;">
+                            查询</button>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-xs-2">
+                <div class="query-weixin">
+                    <img src="../../../../resource/images/index/QR-code.png" alt="顺丰微信公众号">
+                    <p>
+                        关注微信公众号
+                        <br>随时随地查运单</p>
+                </div>
+            </div>
+            <div class="col-xs-2">
+                <div class="query-weixin">
+                    <img src="../../../../resource/images/index/Monthly_customer.png" alt="顺丰月结管家">
+                    <p>
+                        关注月结管家
+                        <br>企业查单对账更方便</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="delivery-wrapper" style="display: block;">
+        <div class="deliveries">
+            <div class="main-content-row delivery">
+                <div class="delivery-brief" id="waybill-456289265852">
+                    <div class="wrapper_left">
+                        <div class="locations">苏州市
+                            <span class="location-arrow"></span>北京市</div>
+                        <div class="delivery-content">
+                            <span class="number">456289265852</span>
+                            <span class="product-name">顺丰特惠</span>
+                        </div>
+                        <div class="last-update">
+                            <span class="time">2018-05-23 12:26</span>
+                            <span class="status">已签收(立鑫苑超市 ),感谢使用顺丰,期待再次为您服务</span>
+                        </div>
+                    </div>
+                    <span class="status-icon delivered">已签收</span>
+                </div>
+                <div class="delivery-detail top-gray-gradient">
+                    <ul class="tabs-wrapper focus">
+                        <div class="backward-scroll" style="display: none;"></div>
+                        <div class="tabs">
+                            <li data-tab="waybill-status" class="active" style="width: 33.3333%;">
+                                <span class="sfi sfi-trace"></span>
+                                <span>运单动态</span>
+                            </li>
+                            <li data-tab="waybill-picture" style="width: 33.3333%;">
+                                <span class="sfi sfi-scancheck"></span>
+                                <span>签收图</span>
+                            </li>
+                            <li data-tab="waybill-details" style="width: 33.3333%;">
+                                <span class="sfi sfi-list"></span>
+                                <span>运单资料</span>
+                            </li>
+                        </div>
+                        <div class="forward-scroll" style="display: none;"></div>
+                    </ul>
+                    <ul class="tab-details display-none" style="display: block;">
+                        <li data-detail="waybill-status" class="status-updates">
+                            <div data-toggle="status-toggle" class="status-update-box">
+                                <div class="status-update-tab">2018-05-23 星期三
+                                    <b class="arrow"></b>
+                                </div>
+                                <table>
+                                    <tbody>
+                                        <tr class="status-update">
+                                            <td class="time">12:26:12</td>
+                                            <td class="update">已签收(立鑫苑超市 ),感谢使用顺丰,期待再次为您服务</td>
+                                        </tr>
+                                        <tr class="status-update">
+                                            <td class="time">07:50:04</td>
+                                            <td class="update">快件交给李寸伟，正在派送途中（联系电话：18511462888）</td>
+                                        </tr>
+                                        <tr class="status-update">
+                                            <td class="time">07:14:23</td>
+                                            <td class="update">快件到达 【北京昌平善缘家园营业点】</td>
+                                        </tr>
+                                        <tr class="status-update">
+                                            <td class="time">06:27:08</td>
+                                            <td class="update">快件已发车</td>
+                                        </tr>
+                                        <tr class="status-update">
+                                            <td class="time">02:27:58</td>
+                                            <td class="update">快件在【北京顺义集散中心】已装车,准备发往 【北京昌平善缘家园营业点】</td>
+                                        </tr>
+                                        <tr class="status-update">
+                                            <td class="time">01:58:34</td>
+                                            <td class="update">快件到达 【北京顺义集散中心】</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div data-toggle="status-toggle" class="status-update-box  ">
+                                <div class="status-update-tab">2018-05-22 星期二
+                                    <b class="arrow"></b>
+                                </div>
+                                <table>
+                                    <tbody>
+                                        <tr class="status-update">
+                                            <td class="time">05:55:46</td>
+                                            <td class="update">快件已发车</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div data-toggle="status-toggle" class="status-update-box  ">
+                                <div class="status-update-tab">2018-05-21 星期一
+                                    <b class="arrow"></b>
+                                </div>
+                                <table>
+                                    <tbody>
+                                        <tr class="status-update">
+                                            <td class="time">22:47:29</td>
+                                            <td class="update">快件在【苏州昆山集散中心】已装车,准备发往 【北京顺义集散中心】</td>
+                                        </tr>
+                                        <tr class="status-update">
+                                            <td class="time">21:48:47</td>
+                                            <td class="update">快件到达 【苏州昆山集散中心】</td>
+                                        </tr>
+                                        <tr class="status-update">
+                                            <td class="time">20:02:26</td>
+                                            <td class="update">快件已发车</td>
+                                        </tr>
+                                        <tr class="status-update">
+                                            <td class="time">16:49:47</td>
+                                            <td class="update">快件在【苏州张家港集散中心】已装车,准备发往 【苏州昆山集散中心】</td>
+                                        </tr>
+                                        <tr class="status-update">
+                                            <td class="time">16:31:33</td>
+                                            <td class="update">快件到达 【苏州张家港集散中心】</td>
+                                        </tr>
+                                        <tr class="status-update">
+                                            <td class="time">16:05:57</td>
+                                            <td class="update">快件已发车</td>
+                                        </tr>
+                                        <tr class="status-update">
+                                            <td class="time">14:04:27</td>
+                                            <td class="update">快件在【大义速运营业点】已装车,准备发往 【苏州张家港集散中心】</td>
+                                        </tr>
+                                        <tr class="status-update">
+                                            <td class="time">12:16:38</td>
+                                            <td class="update">顺丰速运 已收取快件</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </li>
+                        <li data-detail="waybill-picture" class="status-precedence"></li>
+                        <li data-detail="waybill-details" class="status-infos"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="subscription-wrapper"></div>
+    </div>
+    <div id="query_note" style="display:none">
+        <div class="main-content-row content-page">
+            <h3>查询须知</h3>
+            <p>1、为了确保您的信息安全，我们目前仅提供运单上寄方或收方留有的手机号码的运单号查询</p>
+            <p>2、目前仅提供7天内查询，一天内可查询3次</p>
+            <p>3、获取的验证码10分钟内有效</p>
+            <p>4、打*号为必填项</p>
+        </div>
+    </div>
+</div> -->
+               <div id='tarck'>
+                  <div class='track'>
+                    <div class='floorphone'>
+                        <span>按照单号</span>
+                        <span>按照手机号</span>
+                    </div>
+                    <input class='inNum' type='text' placeholder="请输入单号" />
+                    <img src='' />
+                    <p class='lately'>
+                        <span>13246546132</span>
+                        <span>最近查询<i>^</i></span>
+                    </p>
+                    <i  class='lately_search'>查询</i>
+                </div>
+                <div class='tarck_content'>
+
+                </div>
+                <div class='dynamic'>
+                    <div>
+                        <img src=''/>
+                        <span class='dymove'>运单动态</span>
+                    </div>
+                    <div class='specific'>
+                        <p>
+                            <span>2018-05-23 星期三</span>
+                            <span>></span>
+                        </p>
+                        <ul>
+                            <li><span>12:26:12</span>    已签收(美廉超市)，感谢使用，期待再次为您服务</li>
+                            <li><span>12:26:12</span>    已签收(美廉超市)，感谢使用，期待再次为您服务</li>
+                            <li><span>12:26:12</span>   已签收(美廉超市)，感谢使用，期待再次为您服务</li>
+                            <li><span>12:26:12</span>    已签收(美廉超市)，感谢使用，期待再次为您服务</li>
+                            <li><span>12:26:12</span>   已签收(美廉超市)，感谢使用，期待再次为您服务</li>
+                            <li><span>12:26:12</span>    已签收(美廉超市)，感谢使用，期待再次为您服务</li>
+                            <li><span>12:26:12</span>    已签收(美廉超市)，感谢使用，期待再次为您服务</li>
+                        </ul>
+                    </div>  
+                      <div class='specific'>
+                        <p>
+                            <span>2018-05-23 星期三</span>
+                            <span>></span>
+                        </p>
+                        <ul>
+                            <li><span>12:26:12</span>    已签收(美廉超市)，感谢使用，期待再次为您服务</li>
+                            <li><span>12:26:12</span>    已签收(美廉超市)，感谢使用，期待再次为您服务</li>
+                            <li><span>12:26:12</span>   已签收(美廉超市)，感谢使用，期待再次为您服务</li>
+                            <li><span>12:26:12</span>    已签收(美廉超市)，感谢使用，期待再次为您服务</li>
+                            <li><span>12:26:12</span>   已签收(美廉超市)，感谢使用，期待再次为您服务</li>
+                            <li><span>12:26:12</span>    已签收(美廉超市)，感谢使用，期待再次为您服务</li>
+                            <li><span>12:26:12</span>    已签收(美廉超市)，感谢使用，期待再次为您服务</li>
+                        </ul>
+                    </div> 
+
+                </div>
+               </div>
+            </div>
+            <div id='footer'></div>
+        </div>
+</body>
+
+</html>

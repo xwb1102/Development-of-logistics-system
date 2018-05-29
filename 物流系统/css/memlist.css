@@ -1,0 +1,23 @@
+#details{
+    padding-top:20px;
+}
+.search-user{
+    width:400px;
+    height:60px;
+    position: relative;
+    margin:auto;
+}
+.search {
+    position: absolute;
+    top:10px;
+    left:306px;
+    cursor: pointer;
+}
+.searchtxt{
+    position: absolute;
+    top:10px;
+    left:40px;
+    width:252px;
+    height:32px;
+    padding-left:6px;
+}

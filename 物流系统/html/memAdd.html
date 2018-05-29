@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href='../css/index.css' rel='stylesheet' type='text/css' />
+    <!--下面是表格的上方的样式-->
+    <link href='../css/memlist.css' rel='stylesheet' type='text/css' />
+    <!--  下面的引入是表格的样式-->
+    <link href='../css/mfrom.css' rel='stylesheet' type='text/css' />
+    <link href='../css/order.css' rel='stylesheet' type='text/css' />
+</head>
+
+<body>
+    <div id='wraper'>
+        <div id='header'>
+            <div id='header_left'>
+                <a href='javascript:'>后台管理系统</a>
+                <img class='hradLift-img' src='../img/header-nav.jpg' />
+                <div>+新增
+                    <span></span>
+                </div>
+                <ul class='leftList'>
+                    <li>
+                        <img src='../img/list-menu.jpg' /> 资讯
+                    </li>
+                    <li>
+                        <img src='../img/list-menu2.jpg' /> 图片
+                    </li>
+                    <li>
+                        <img src='../img/list-menu3.jpg' /> 用户
+                    </li>
+                </ul>
+            </div>
+            <div id='header_right'>
+                <a href='javascript:'>前台首页</a>
+                <div>admin
+                    <span></span>
+                </div>
+                <ul class='rightList'>
+                    <li>个人信息</li>
+                    <li>切换账号</li>
+                    <li>退出</li>
+                </ul>
+            </div>
+        </div>
+        <div id='content'>
+            <div id='main-left'>
+                <div>
+                    <span>会员管理
+                        <i>></i>
+                    </span>
+                    <ul>
+                        <li>>会员列表</li>
+                        <li>>会员删除</li>
+                    </ul>
+                </div>
+                <div>
+                    <span>订单管理
+                        <i>></i>
+                    </span>
+                    <ul>
+                        <li>>订单查询</li>
+                        <li>>我要下单</li>
+                    </ul>
+                </div>
+                <div>
+                    <span>运单追踪
+                        <i>></i>
+                    </span>
+                    <ul>
+                        <li>>运单追踪</li>
+                        <li>>添加运单</li>
+                    </ul>
+                </div>
+                <div>
+                    <span>运费时效查询
+                        <i>></i>
+                    </span>
+                    <ul>
+                        <li>>运费时效查询</li>
+                        <li>>添加时效</li>
+                    </ul>
+                </div>
+                <div>
+                    <span>收寄范围查询
+                        <i>></i>
+                    </span>
+                    <ul>
+                        <li>>收寄范围查询</li>
+                        <li>>添加收寄范围</li>
+                    </ul>
+                </div>
+                <div>
+                    <span>收寄标准查询
+                        <i>></i>
+                    </span>
+                    <ul>
+                        <li>>收寄标准查询</li>
+                        <li>>添加收寄标准</li>
+                    </ul>
+                </div>
+                <div>
+                    <span>管理员管理
+                        <i>></i>
+                    </span>
+                    <ul>
+                        <li>>管理员列表</li>
+                        <li>>权限管理</li>
+                    </ul>
+                </div>
+                <div>
+                    <span>系统统计
+                        <i>></i>
+                    </span>
+                    <ul>
+                        <li>>折线图</li>
+                        <li>>柱状图</li>
+                        <li>>地图</li>
+                        <li>>饼图</li>
+                        <li>>雷达图</li>
+                        <li>>k线图</li>
+                        <li>>热力图</li>
+                        <li>>仪表图</li>
+                    </ul>
+                </div>
+            </div>
+            <div id='main-right'>
+
+                <div id='explain'>
+                        <div class='active'>会员列表
+                            <i>X</i>
+                        </div>
+                        <div>订单列表
+                            <i>X</i>
+                        </div>
+                    </div>
+                    <div id='breadmenu'>
+                        <a href="javascript:;">首页
+                            <i>></i>
+                        </a>
+                        <a href="javascript:;">演示
+                            <i>></i>
+                        </a>
+                        <span>导航元素</span>
+                        <img id='refresh' src='../img/refresh.jpg' />
+                    </div>
+                    <div id='details'>
+                        <div class='search-user'>
+                            <input placeholder="请输入用户名" class='searchtxt' type="text" />
+                            <img class='search' src='../img/search.jpg' />
+                        </div>
+                        <div class='doIt'>
+                            <span class='doItdel'>
+                                <img src='../img/doItdel.jpg' />
+                                <i>批量删除</i>
+                            </span>
+                            <span class='doItto'>共有数据：88条</span>
+                        </div>
+                        <div class=''>
+                            <table border="1" cellspacing="0" cellpadding="0" borderColor='#ccc' id="mfrom">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            <input type='checkbox' />
+                                        </th>
+                                        <th>ID</th>
+                                        <th>用户名</th>
+                                        <th>性别</th>
+                                        <th>手机</th>
+                                        <th>邮箱</th>
+                                        <th>地址</th>
+                                        <th>加入时间</th>
+                                        <th>状态</th>
+                                        <th>操作</th>
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <input type='checkbox' />
+                                        </td>
+                                        <td>1</td>
+                                        <td>小明</td>
+                                        <td>男</td>
+                                        <td>13000000000</td>
+                                        <td>admin@mail.com</td>
+                                        <td>北京市 海淀区</td>
+                                        <td>2017-01-01 11:11:42</td>
+                                        <td>
+                                            <i class='state active'>已启用</i>
+                                        </td>
+                                        <td>
+                                            <span class='downbj'></span>
+                                            <span class='editbj'></span>
+                                            <span class='modifybj'></span>
+                                            <span class='delbj'></span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <input type='checkbox' />
+                                        </td>
+                                        <td>1</td>
+                                        <td>小明</td>
+                                        <td>男</td>
+                                        <td>13000000000</td>
+                                        <td>admin@mail.com</td>
+                                        <td>北京市 海淀区</td>
+                                        <td>2017-01-01 11:11:42</td>
+                                        <td>
+                                            <i class='state'>已启用</i>
+                                        </td>
+                                        <td>
+                                            <span class='downbj'></span>
+                                            <span class='editbj'></span>
+                                            <span class='modifybj'></span>
+                                            <span class='delbj'></span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                                <tfoot id='tfoot'>
+                                    <tr>
+                                        <td>
+                                            <input type='checkbox' />
+                                        </td>
+                                        <td>1</td>
+                                        <td>小明</td>
+                                        <td>男</td>
+                                        <td>13000000000</td>
+                                        <td>admin@mail.com</td>
+                                        <td>北京市 海淀区</td>
+                                        <td>2017-01-01 11:11:42</td>
+                                        <td>
+                                            <i class='state'>已启用</i>
+                                        </td>
+                                        <td>
+                                            <span class='downbj'></span>
+                                            <span class='editbj'></span>
+                                            <span class='modifybj'></span>
+                                            <span class='delbj'></span>
+                                        </td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                        <div class='nav'>
+                            <ul class='nav-list'>
+                                <li><a href='javascript:;'><<<a/></li>
+                                <li><a href='javascript:;'>1<a/></li>
+                                <li><a href='javascript:;'>2<a/></li>
+                                <li class='active'><a href='javascript:;'>3<a/></li>
+                                <li><a href='javascript:;'>4<a/></li>
+                                <li><a href='javascript:;'>>><a/></li>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+
+        <div id='footer'></div>
+    </div>
+</body>
+
+</html>

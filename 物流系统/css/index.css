@@ -1,0 +1,225 @@
+body,html,ul,p,h1,h2,h3,h4,h5,img{
+    margin:0;
+    padding:0;
+}
+li{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+#wraper{
+    width:1366px;
+    height:800px;
+    background:#efefef;
+}
+#header{
+    width:100%;
+    height:45px;
+    line-height: 45px;
+    background-color:#222;
+    color:#c7f1ff;
+    border-bottom:1px solid #4e4e4e;
+    position: relative;
+}
+#header_left a{
+    color:#c7f1ff;
+    margin:0 92px 0 20px;
+    float:left;
+}
+.hradLift-img{
+    float:left;
+    width:32px;
+    height:32px;
+    cursor: pointer;
+    margin:7px 41px 0 0;
+}
+#header_left div {
+    float: left;
+    height:41px;
+}
+#header_left div:hover {
+    border-bottom: 5px solid #5fb878;
+}
+/*这里是移入的时候那个列表*/
+.leftList {
+    width:92px;
+    height:118px;
+    border:1px solid #d2d2d2;
+    overflow: hidden;
+    padding-top:5px;
+    background:#fff;
+    position: absolute;
+    top:50px;
+    left:266px;
+    display: none;
+}
+.leftList li {
+    height:38px;
+    line-height: 38px;
+    padding-left:19px;
+    color:#333333;
+}
+
+.leftList li:hover {
+    background:#ccc;
+}
+.leftList li img {
+    width:14px;
+    height:14px;
+    margin-right:8px;
+}
+#header_left div span {
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+    border-top: 8px solid #bdbdbd;
+    width: 0px;
+    height: 0px;
+    float: right;
+    margin-top: 18px;
+    margin-left: 6px;
+}
+#header_right {
+    float: right;
+    position: relative;
+}
+#header_right a {
+    color: #c7f1ff;
+    float:right;
+    margin-right:40px;
+    margin-left:23px;
+}
+#header_right div {
+    float: right;
+    height:41px;
+}
+/*这里是右边的列表*/
+.rightList{
+    width:92px;
+    height:118px;
+    border:1px solid #d2d2d2;
+    overflow: hidden;
+    padding-top:5px;
+    background:#fff;
+    position: absolute;
+    top:50px;
+    right:114px;
+    display:none;
+}
+.rightList li {
+    height: 38px;
+    line-height: 38px;
+    padding-left: 19px;
+    color: #333333;
+}
+#header_right div:hover{
+    border-bottom:5px solid #5fb878;
+}
+#header_right div span {
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+    border-top: 8px solid #bdbdbd;
+    width: 0px;
+    height: 0px;
+    float: right;
+    margin-top: 18px;
+    margin-left: 6px;
+}
+#content{
+    width:100%;
+    height:562px;
+}
+#main-left{
+    height:100%;
+    width:220px;
+    background:#eeeeee;
+    padding-top:10px;
+    font-size:14px;
+    float:left;
+}
+#main-left div{
+    /* height:40px; */
+    width:170px;
+    line-height: 40px;
+    cursor: pointer;
+}
+#main-left div:nth-of-type(1){
+    padding-left:50px;
+    background:url(../img/leftMenu-list1.jpg) no-repeat 20px 12px;
+}
+#main-left div:nth-of-type(2) {
+    padding-left: 50px;
+    background: url(../img/mainLeft-list2.jpg) no-repeat 20px 12px;
+}
+#main-left div:nth-of-type(3) {
+    padding-left: 50px;
+    background: url(../img/menuLeft-list4.jpg) no-repeat 20px 12px;
+}
+#main-left div:nth-of-type(4) {
+    padding-left: 50px;
+    background: url(../img/list-menu2.jpg) no-repeat 20px 12px;
+}
+#main-left div:nth-of-type(5) {
+    padding-left: 50px;
+    background: url(../img/leftMenu-list1.jpg) no-repeat 20px 12px;
+}
+#main-left div:nth-of-type(6) {
+    padding-left: 50px;
+    background: url(../img/mainLeft-list2.jpg) no-repeat 20px 12px;
+}
+#main-left div:nth-of-type(7) {
+    padding-left: 50px;
+    background: url(../img/leftMenu-list3.JPG) no-repeat 20px 12px;
+}
+#main-left div:nth-of-type(8) {
+    padding-left: 50px;
+    background: url(../img/menuLeft-list4.jpg) no-repeat 20px 12px;
+}
+#main-left div i{
+    float:right;
+    margin-right:27px;
+}
+#main-right{
+    width:1146px;
+    height:572px;
+    float:right;
+    background:#fff;
+    font-size:14px;
+    background:url(../img/background.jpg) no-repeat;
+    background-size:cover;
+} 
+#explain{
+    width:1144px;
+    height:36px;
+    background:#efeef0;
+}
+#explain div{
+    width:110px;
+    height:36px;
+    line-height: 36px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+#explain div i{
+    margin-left:12px;
+}
+#explain div.active{
+    background:#fff;
+}
+#breadmenu{
+    height:40px;
+    line-height: 40px;
+    padding-left:20px;
+    border-bottom:1px solid #e5e5e5;
+}
+#breadmenu i{
+    margin-left:8px;
+}
+#refresh{
+    float:right;
+    margin-top:6px;
+    margin-right:20px;
+    cursor: pointer;
+}

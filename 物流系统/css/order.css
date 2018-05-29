@@ -1,0 +1,102 @@
+
+.orderSearch{
+    position: absolute;
+    top: 168px;
+    left: 414px;
+    cursor: pointer;
+}
+.orderSearch div{
+    float:left;
+    border-radius:4px;
+}
+.data{
+    width:160px;
+    height:120px;
+    border:1px solid #cccccc;
+    position: absolute;
+    top:40px;
+    left:10px;
+    display: none;
+}
+.data2 {
+    width: 160px;
+    height: 120px;
+    border: 1px solid #cccccc;
+    position: absolute;
+    top: 40px;
+    left: 192px;
+    z-index: 2;
+    background:yellow;
+    display: none;
+}
+.payment{
+    width:160px;
+    height:120px;
+    position: absolute;
+    left:374px;
+    top:40px;
+    border:1px solid #ccc;
+    z-index: 2;
+    display:none;
+}
+.payment li{
+    width:160px;
+    height:30px;
+    line-height:30px;
+    text-align: center;
+    background:yellow;
+}
+.method{
+    width:160px;
+    height:120px;
+    position: absolute;
+    left:556px;
+    top:40px;
+    border:1px solid #cccccc;
+    display: none;
+}
+.method li{
+    width:160px;
+    height:40px;
+    line-height:40px;
+    text-align: center;
+    background:yellow;
+}
+.orderSearch input{
+    width:154px;
+    height:30px;
+    margin:0 10px;
+    padding-left:6px;
+    border-radius: 3px;
+    border:1px solid #ccc;
+}
+.orderSearch2{
+    position: absolute;
+    top: 210px;
+    left: 640px;
+    cursor: pointer;
+}
+.orderSearch2 input{
+    width:154px;
+    height:34px;
+    position: absolute;
+    top: 16px;
+    left:16px;
+    padding-left:6px;
+    border-radius: 3px;
+    border:1px solid #ccc;
+}
+.orderSearch3{
+     position: absolute;
+     top: 16px;
+     left: 180px;
+     cursor: pointer;
+}
+.doIt2{
+    margin-top:160px;
+}
+.payment{
+    width:160px;
+    height:60px;
+    border:1px solid #ccc;
+}
