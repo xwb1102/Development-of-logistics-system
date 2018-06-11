@@ -1,0 +1,291 @@
+body,html,ul,p,h1,h2,h3,h4,h5,img,dl,dt,dd,input{
+    margin:0;
+    padding:0;
+}
+li{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+i{
+    font-style:normal;
+}
+input{
+	outline: none;
+	/* -webkit-appearance: none; */
+	border-radius: 0;
+}
+#wraper{
+    background:#fff;
+    overflow: hidden;
+}
+#header{
+    width:100%;
+    height:45px;
+    line-height: 45px;
+    background-color:#222;
+    color:#fff;
+    border-bottom:1px solid #4e4e4e;
+    position: relative;
+    z-index: 6;
+    position:fixed;
+    left:0;
+    top:0;
+}
+#header_left a{
+    color:#fff;
+    margin:0 92px 0 20px;
+    float:left;
+    font-size:20px;
+}
+.hradLift-img{
+    float:left;
+    width:32px;
+    height:32px;
+    cursor: pointer;
+    margin:7px 41px 0 0;
+}
+#header_left div {
+    float: left;
+    height:41px;
+}
+#header_left div:hover {
+    border-bottom: 5px solid #5fb878;
+}
+/*这里是移入的时候那个列表*/
+.leftList {
+    width:92px;
+    height:118px;
+    border:1px solid #d2d2d2;
+    overflow: hidden;
+    padding-top:5px;
+    background:#fff;
+    position: absolute;
+    top:50px;
+    left:266px;
+    display: none;
+}
+.leftList li {
+    height:38px;
+    line-height: 38px;
+    padding-left:19px;
+    color:#333333;
+}
+
+.leftList li:hover {
+    background:#ccc;
+}
+.leftList li img {
+    width:14px;
+    height:14px;
+    margin-right:8px;
+}
+#header_left div span {
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+    border-top: 8px solid #bdbdbd;
+    width: 0px;
+    height: 0px;
+    float: right;
+    margin-top: 18px;
+    margin-left: 6px;
+}
+#header_right {
+    float: right;
+    position: relative;
+}
+#header_right a {
+    color: #fff;
+    float:right;
+    margin-right:40px;
+    margin-left:23px;
+}
+#header_right div {
+    float: right;
+    height:41px;
+}
+/*这里是右边的列表*/
+.rightList{
+    width:92px;
+    height:118px;
+    border:1px solid #d2d2d2;
+    overflow: hidden;
+    padding-top:5px;
+    background:#fff;
+    position: absolute;
+    top:50px;
+    right:114px;
+    display:none;
+}
+.rightList li {
+    height: 38px;
+    line-height: 38px;
+    padding-left: 19px;
+    color: #333333;
+}
+#header_right div:hover{
+    border-bottom:5px solid #5fb878;
+}
+#header_right div span {
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+    border-top: 8px solid #bdbdbd;
+    width: 0px;
+    height: 0px;
+    float: right;
+    margin-top: 18px;
+    margin-left: 6px;
+}
+#content{
+    width:100%;
+    position: relative;
+    
+}
+.content-right{
+	background:#fff;
+     /* border: 1px solid #ccc; */
+     border-radius: 2px;
+   
+}
+#main-left{
+    height:100%;
+    width:220px;
+    background:#eee;
+    font-size:14px;
+    float:left;
+    margin-top:48px;
+    position:fixed;
+    left:0;
+    top:0;
+    padding-top:10px
+}
+
+#main-left div{
+    /* height:40px; */
+    width:170px;
+    line-height: 40px;
+    cursor: pointer;
+}
+#main-left div span{
+    padding-left:54px;
+    display: inline-block;
+    width:164px;
+}
+/* #main-left div ul{
+    display: none;
+} */
+.mainLeftActive{
+    display:none;
+}
+#main-left div:nth-of-type(1){
+    /* padding-left:50px; */
+    background:url(../img/leftMenu-list1.jpg) no-repeat 20px 12px;
+}
+#main-left div:nth-of-type(2) {
+    /* padding-left: 50px; */
+    background: url(../img/mainLeft-list2.jpg) no-repeat 20px 12px;
+}
+#main-left div:nth-of-type(3) {
+    /* padding-left: 50px; */
+    background: url(../img/menuLeft-list4.jpg) no-repeat 20px 12px;
+}
+#main-left div:nth-of-type(4) {
+    /* padding-left: 50px; */
+    background: url(../img/list-menu2.jpg) no-repeat 20px 12px;
+}
+#main-left div:nth-of-type(5) {
+    /* padding-left: 50px; */
+    background: url(../img/leftMenu-list1.jpg) no-repeat 20px 12px;
+}
+#main-left div:nth-of-type(6) {
+    /* padding-left: 50px; */
+    background: url(../img/mainLeft-list2.jpg) no-repeat 20px 12px;
+}
+#main-left div:nth-of-type(7) {
+    /* padding-left: 50px; */
+    background: url(../img/leftMenu-list3.JPG) no-repeat 20px 12px;
+}
+#main-left div:nth-of-type(8) {
+    /* padding-left: 50px; */
+    background: url(../img/menuLeft-list4.jpg) no-repeat 20px 12px;
+}
+#main-left div span i{
+    float:right;
+    margin-right:27px;
+}
+#main-left div li{
+    border-bottom:1px solid #ccc;
+    width:173px;
+    padding-left: 47px;
+     /* text-align: center; */
+}
+#main-left div li i {
+    margin-right: 10px;
+}
+.main-right{
+	margin-left: 20px;
+    width:100%;
+    height:100%;
+    float:left;
+    font-size:14px;
+    margin-left:220px;
+    overflow-y: scroll;
+    }
+.content-wrap{
+    width:86%;
+    margin-top: 82px;
+    height:1000px;
+    /* margin:82px auto */
+    }
+#explain{
+    width:100%;
+    height:36px;
+    background:#efeef0;
+    position: fixed;
+    top:46px;
+    left:220px;
+    z-index: 3;
+    border-bottom: 1px solid #e2e2e2;
+}
+#explain div{
+    width:110px;
+    height:36px;
+    line-height: 36px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+#explain div i{
+    margin-left:12px;
+}
+#explain div.active{
+    background:#fff;
+}
+#breadmenu{
+    height:40px;
+    line-height: 40px;
+    padding-left:20px;
+    border-bottom:1px solid #e5e5e5;
+}
+#breadmenu img{
+    width:19px;
+    height:19px;
+    padding:5px;
+    border-radius: 2px;
+    background:#1aa194;
+}
+.navv{
+    font-size:12px;
+    color:#ccc;
+}
+#breadmenu i{
+    margin-left:8px;
+}
+#refresh{
+    float:right;
+    margin-top:6px;
+    margin-right:20px;
+    cursor: pointer;
+}

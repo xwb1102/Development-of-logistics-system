@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<link href='../css/index.css' rel='stylesheet' type='text/css' />
+		<!--下面是表格的上方的样式-->
+		<link href='../css/memlist.css' rel='stylesheet' type='text/css' />
+		<!--  下面的引入是表格的样式-->
+		<link href='../css/mfrom.css' rel='stylesheet' type='text/css' />
+		<link href='../css/order.css' rel='stylesheet' type='text/css' />
+	</head>
+
+	<body>
+		<div id='wraper'>
+			<div id='header'>
+				<div id='header_left'>
+					<a href='javascript:'>后台管理系统</a>
+					<img class='hradLift-img' src='../img/header-nav.jpg' />
+					<div>+新增
+						<span></span>
+					</div>
+					<ul class='leftList'>
+						<li>
+							<img src='../img/list-menu.jpg' /> 资讯
+						</li>
+						<li>
+							<img src='../img/list-menu2.jpg' /> 图片
+						</li>
+						<li>
+							<img src='../img/list-menu3.jpg' /> 用户
+						</li>
+					</ul>
+				</div>
+				<div id='header_right'>
+					<a href='javascript:'>前台首页</a>
+					<div>admin
+						<span></span>
+					</div>
+					<ul class='rightList'>
+						<li>个人信息</li>
+						<li>切换账号</li>
+						<li>退出</li>
+					</ul>
+				</div>
+			</div>
+			<div id='content'>
+				<div id='main-left'>
+					<div>
+						<span>会员管理<i>></i></span>
+						<ul>
+							<li><i>></i>会员列表</li>
+						</ul>
+					</div>
+					<div>
+						<span>订单管理<i>></i></span>
+						<ul>
+							<li><i>></i>订单查询</li>
+							<li><i>></i>我要下单</li>
+						</ul>
+					</div>
+					<div>
+						<span>运单追踪<i>></i></span>
+						<ul>
+							<li><i>></i>运单追踪</li>
+						</ul>
+					</div>
+					<div>
+						<span>运费时效查询<i>></i></span>
+						<ul>
+							<li><i>></i>运费时效查询</li>
+							<li><i>></i>添加时效</li>
+						</ul>
+					</div>
+					<div>
+						<span>收寄范围查询<i>></i></span>
+						<ul>
+							<li><i>></i>收寄范围查询</li>
+							<li><i>></i>添加收寄范围</li>
+						</ul>
+					</div>
+					<div>
+						<span>管理员管理<i>></i></span>
+						<ul>
+							<li><i>></i>管理员列表</li>
+							<li><i>></i>权限管理</li>
+						</ul>
+					</div>
+					<div>
+						<span>系统统计<i>></i></span>
+						<ul>
+							<li><i>></i>折线图</li>
+							<li><i>></i>柱状图</li>
+							<li><i>></i>地图</li>
+							<li><i>></i>饼图</li>
+							<li><i>></i>雷达图</li>
+							<li><i>></i>k线图</li>
+							<li><i>></i>热力图</li>
+							<li><i>></i>仪表图</li>
+						</ul>
+					</div>
+				</div>
+				<div class='main-right'>
+					<div class="content-right">
+                            <div id="main" style="width: 600px;height:400px;"></div>
+                            <script type="text/javascript">
+                                // 基于准备好的dom，初始化echarts实例
+                                var myChart = echarts.init(document.getElementById('main'));
+                        
+                                // 指定图表的配置项和数据
+                                var option = {
+                                    title: {
+                                        text: 'ECharts 入门示例'
+                                    },
+                                    tooltip: {},
+                                    legend: {
+                                        data:['销量']
+                                    },
+                                    xAxis: {
+                                        data: ["衬衫","羊毛衫","雪纺衫","裤子","高跟鞋","袜子"]
+                                    },
+                                    yAxis: {},
+                                    series: [{
+                                        name: '销量',
+                                        type: 'bar',
+                                        data: [5, 20, 36, 10, 10, 20]
+                                    }]
+                                };
+                        
+                                // 使用刚指定的配置项和数据显示图表。
+                                myChart.setOption(option);
+                            </script>
+
+					</div>
+				</div>
+				<div id='footer'></div>
+			</div>
+    </body>
+    <script src="echarts.min.js"></script>
+	<script src='../js/index.js'></script>
+
+</html>
