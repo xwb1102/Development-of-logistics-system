@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href='../css/index.css' rel='stylesheet' type='text/css' />
+    <!--下面是表格的上方的样式-->
+    <link href='../css/memlist.css' rel='stylesheet' type='text/css' />
+    <!--  下面的引入是表格的样式-->
+    <link href='../css/mfrom.css' rel='stylesheet' type='text/css' />
+    <link href='../css/order.css' rel='stylesheet' type='text/css' />
+    <link href='../css/Order down.css' rel='stylesheet' type='text/css' />
+    <link href='../css/tarck.css' rel='stylesheet' type='text/css' />
+    <link href='../css/rang.css' rel='stylesheet' type='text/css' />
+</head>
+<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+<body>
+    <div id='wraper'>
+        <div id='header'>
+            <div id='header_left'>
+                <a href='javascript:'>后台管理系统</a>
+                <img class='hradLift-img' src='../img/header-nav.jpg' />
+                <div>+新增
+                    <span></span>
+                </div>
+                <ul class='leftList'>
+                    <li>
+                        <img src='../img/list-menu.jpg' /> 资讯
+                    </li>
+                    <li>
+                        <img src='../img/list-menu2.jpg' /> 图片
+                    </li>
+                    <li>
+                        <img src='../img/list-menu3.jpg' /> 用户
+                    </li>
+                </ul>
+            </div>
+            <div id='header_right'>
+                <a href='javascript:'>前台首页</a>
+                <div>admin
+                    <span></span>
+                </div>
+                <ul class='rightList'>
+                    <li>个人信息</li>
+                    <li>切换账号</li>
+                    <li>退出</li>
+                </ul>
+            </div>
+        </div>
+        <div id='content'>
+            <div id='main-left'>
+                <div>
+                    <span>会员管理<i>></i></span>
+                    <ul>
+                        <li><i>></i>会员列表</li>
+                        <li><i>></i	`>会员删除</li>
+                    </ul>
+                </div>
+                <div>
+                    <span>订单管理<i>></i></span>
+                    <ul>
+                        <li><i>></i>订单查询</li>
+                        <li><i>></i>我要下单</li>
+                    </ul>
+                </div>
+                <div>
+                    <span>运单追踪<i>></i></span>
+                    <ul>
+                        <li><i>></i>运单追踪</li>
+                    </ul>
+                </div>
+                <div>
+                    <span>运费时效查询<i>></i></span>
+                    <ul>
+                        <li><i>></i>运费时效查询</li>
+                        <li><i>></i>添加时效</li>
+                    </ul>
+                </div>
+                <div>
+                    <span>收寄范围查询<i>></i></span>
+                    <ul>
+                        <li><i>></i>收寄范围查询</li>
+                        <li><i>></i>添加收寄范围</li>
+                    </ul>
+                </div>
+                <div>
+                    <span>管理员管理<i>></i></span>
+                    <ul>
+                        <li><i>></i>管理员列表</li>
+                        <li><i>></i>权限管理</li>
+                    </ul>
+                </div>
+                <div>
+                    <span>系统统计<i>></i></span>
+                    <ul>
+                        <li><i>></i>折线图</li>
+                        <li><i>></i>柱状图</li>
+                        <li><i>></i>地图</li>
+                        <li><i>></i>饼图</li>
+                        <li><i>></i>雷达图</li>
+                        <li><i>></i>k线图</li>
+                        <li><i>></i>热力图</li>
+                        <li><i>></i>仪表图</li>
+                    </ul>
+                </div>
+            </div>
+            <div class='main-right'>
+                	    <div id='explain'>
+							<div class='active'>会员列表
+								<i>X</i>
+							</div>
+							<div>订单列表
+								<i>X</i>
+							</div>
+						</div>
+						<div class='content-wrap'>
+                                <div class='mdot'>
+                                        <div class='dot'>
+                                             <p>查询网点信息</p>
+                                             <input type='text' placeholder='福州市-仓山区'/>
+                                             <input type='text' placeholder='输入关键词查找更方便；如：小区名'/>
+                                             <span>查询</span>
+                                        </div>
+                                     <!--百度地图容器-->
+                                     <div style="width:697px;height:550px;border:#ccc solid 1px;" id="dituContent"></div>
+                                             <script type="text/javascript">
+                                                 //创建和初始化地图函数：
+                                                 function initMap() {
+                                                     createMap(); //创建地图
+                                                     setMapEvent(); //设置地图事件
+                                                     addMapControl(); //向地图添加控件
+                                                 }
+                     
+                                                 //创建地图函数：
+                                                 function createMap() {
+                                                     var map = new BMap.Map("dituContent"); //在百度地图容器中创建一个地图
+                                                     var point = new BMap.Point(116.395645, 39.929986); //定义一个中心点坐标
+                                                     map.centerAndZoom(point, 12); //设定地图的中心点和坐标并将地图显示在地图容器中
+                                                     window.map = map; //将map变量存储在全局
+                                                 }
+                     
+                                                 //地图事件设置函数：
+                                                 function setMapEvent() {
+                                                     map.enableDragging(); //启用地图拖拽事件，默认启用(可不写)
+                                                     map.enableScrollWheelZoom(); //启用地图滚轮放大缩小
+                                                     map.enableDoubleClickZoom(); //启用鼠标双击放大，默认启用(可不写)
+                                                     map.enableKeyboard(); //启用键盘上下左右键移动地图
+                                                 }
+                     
+                                                 //地图控件添加函数：
+                                                 function addMapControl() {
+                                                     //向地图中添加缩放控件
+                                                     var ctrl_nav = new BMap.NavigationControl({
+                                                         anchor: BMAP_ANCHOR_TOP_LEFT,
+                                                         type: BMAP_NAVIGATION_CONTROL_LARGE
+                                                     });
+                                                     map.addControl(ctrl_nav);
+                                                     //向地图中添加缩略图控件
+                                                     var ctrl_ove = new BMap.OverviewMapControl({
+                                                         anchor: BMAP_ANCHOR_BOTTOM_RIGHT,
+                                                         isOpen: 1
+                                                     });
+                                                     map.addControl(ctrl_ove);
+                                                     //向地图中添加比例尺控件
+                                                     var ctrl_sca = new BMap.ScaleControl({
+                                                         anchor: BMAP_ANCHOR_BOTTOM_LEFT
+                                                     });
+                                                     map.addControl(ctrl_sca);
+                                                 }
+                     
+                     
+                                                 initMap(); //创建和初始化地图
+                                             </script>
+                                    </div>
+                        </div>
+
+               
+            </div>
+
+        </div>
+        <div id='footer'></div>
+    </div>
+</body>
+
+<script src='../js/index.js'></script>
+</html>
