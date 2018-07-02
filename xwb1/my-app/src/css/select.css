@@ -1,0 +1,142 @@
+.selectFree{
+    margin-bottom:30px;
+}
+.selectAll{
+    margin-left:30px;
+    position: relative;
+}
+.select{
+    width:822px;
+    border:1px solid #ccc;
+    padding:10px 20px;
+    border-radius: 4px;
+    /* z-index: -1; */
+}
+.select span{
+    display: block;
+    height:40px;
+    line-height:30px;
+}
+.select input{
+    width:610px;
+    height:40px;
+    border-radius: 4px;
+    padding-left:8px;
+    border:1px solid rgba(8, 0, 0, 0.411);
+}
+.searchSelect {
+    width:100px;
+    height:30px;
+    border-radius: 4px;
+    text-align: center;
+    line-height:30px;
+    background:#eb1d21;
+    color:#fff;
+    margin-top:20px;
+    cursor: pointer;
+}
+.searchSelect:hover {
+    border: 1px solid #5bb6e4;
+}
+.selectDet{
+    width:606px;
+    border:1px solid rgba(8, 0, 0, 0.219);
+    overflow: hidden;
+    padding:4px 6px;
+    position: absolute;
+    top:92px;
+    left:21px;
+    background:#ccc;
+    display: none;
+}
+.bigAdd{
+    margin:0 auto;
+    width:240px;
+}
+.bigAdd span{
+    display: inline-block;
+    width:60px;
+    height:30px;
+    text-align: center;
+    line-height:30px;
+    background:yellow;
+    margin-right:10px;
+    border-radius: 4px;
+}
+.addMenu{
+    overflow: hidden;
+    width:390px;
+    margin:6px auto 0;
+}
+.addMenu li{
+    float:left;
+    width:130px;
+    height:34px;
+    text-align: center;
+    line-height:34px;
+    background:black;
+    color:#fff;
+}
+.smAdd {
+    border-top: 1px solid black;
+    padding:6px 2px 0;
+}
+.cang li{
+    float:left;
+    width:100px;
+    height:30px;
+    line-height:30px;
+    text-align: center;
+    /* background:red; */
+}
+.wbSrever{
+    width:850px;
+    padding:4px 6px;
+    border:1px solid rgba(8, 0, 0, 0.219);
+    height:120px;
+    margin-top:30px;
+    border-radius: 4px;
+}
+.wbSrever span{
+    display: block;
+    margin-left:20px;
+}
+.Area{
+    width:120px;
+    height:60px;
+    line-height: 60px;
+    font-size:20px;
+    color:red;
+}
+.serviceArea{
+    width:810px;
+    padding:18px 26px;
+    border:1px solid rgba(8, 0, 0, 0.219);
+    margin-top:30px;
+    overflow: hidden;
+    border-radius: 4px;
+}
+.serviceArea>span{
+    color:#808080;
+    font-size:18px;
+    height:50px;
+    display: block;
+}
+.normalArea>span{
+    display: block;
+    padding-left:20px;
+    background:url(../img/edit.jpg) no-repeat 2px 3px;
+}
+.normalArea ul{
+    margin-top:10px;
+}
+.normalArea ul li{
+    float:left;
+    width:100px;
+    height:30px;
+    text-align: center;
+    line-height:30px;
+}
+.normalArea ul li:hover{
+    background:#ccc;
+}

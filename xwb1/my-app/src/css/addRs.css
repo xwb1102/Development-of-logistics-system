@@ -1,0 +1,45 @@
+.addRang {
+    width: 800px;
+    margin-left: 30px;
+}
+.addRs{
+    width:800px;
+    padding:10px 4px 10px 10px;
+    border: 1px solid #ccc;
+}
+.rsText{
+    height:30px;
+    height:30px;
+    font-size:16px;
+}
+.rsRess input {
+    width:252px;
+    height:30px;
+    padding-left:8px;
+    border-radius: 2px;
+    border:1px solid rgba(8, 0, 0, 0.411);
+    margin-right:4px;
+}
+.addDet {
+    border: 1px solid rgba(8, 0, 0, 0.219);
+    background:#ccc;
+    overflow: hidden;
+    width:792px;
+    display: none;
+}
+.addSure,.delSure{
+    width:794px;
+    padding:10px;
+    border: 1px solid rgba(8, 0, 0, 0.219);
+    margin-top:30px;
+}
+.addSure p{
+    color:red;
+    height:30px;
+    font-size:16px;
+}
+.delSure p {
+    color: red;
+    height: 30px;
+    font-size: 16px;
+}
