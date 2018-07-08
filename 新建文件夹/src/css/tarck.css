@@ -1,0 +1,94 @@
+#tarck{
+    width:930px;
+    height:800px;
+    margin:20px auto;
+    /* background:url(../img/background.jpg) no-repeat; */
+}
+.track{
+    /*width:600px;*/
+    height:150px;
+    /* background:#fff; */
+    padding:10px;
+    font-size:14px;
+    border:1px solid #ccc;
+    float:left;
+}
+.contfree{
+    overflow: hidden;
+}
+.floorphone span{
+    display: inline-block;
+    width:80px;
+    height:24px;
+    line-height:24px;
+    text-align: center;
+    cursor: pointer;
+}
+.floorphone span:nth-of-type(1){
+    background:black;
+    color:#fff;
+}
+.floorphone span:nth-of-type(2){
+    margin-left:20px;
+}
+.inNum{
+    margin-top:10px;
+    width:294px;
+    height:30px;
+    border-radius: 3px;
+    padding:6px;
+    border:1px solid #ccc;
+}
+.lately{
+    width:308px;
+    height:30px;
+    line-height:30px;
+    margin-top:10px;
+}
+.lately span:nth-of-type(2){
+    float: right;
+    cursor: pointer;
+}
+.lately_search{
+    width:100px;
+    height:26px;
+    line-height:26px;
+    text-align: center;
+    color:#fff;
+    display: inline-block;
+    background:Red;
+    border-radius: 3px;
+    margin-top:6px;
+    cursor: pointer;
+}
+.dynamic{
+    /* margin-left:30px; */
+    /*width:600px;*/
+    margin:0 auto;
+    /* background:#fff; */
+    padding: 0 10px;
+    float:right;
+}
+.dymove{
+    width:100px;
+    height:30px;
+    line-height:40px;
+    font-size:20px;
+    display: inline-block;
+}
+.specific{
+    margin-top:20px;
+    font-size:14px;
+}
+.specific ul{
+    margin-left:100px;
+    margin-top:10px;
+}
+.specific ul li span{
+    margin-right:10px;
+    height:30px;
+    line-height: 30px;
+}
+.specific p span:nth-of-type(2){
+    float:right;
+}
