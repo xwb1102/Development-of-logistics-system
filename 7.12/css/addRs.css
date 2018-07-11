@@ -1,0 +1,137 @@
+.addRang {
+    width: 800px;
+    margin-left: 160px;
+    height:668px;
+}
+.addRs{
+    width:800px;
+    padding:10px 4px 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.rsText{
+    height:30px;
+    height:30px;
+    font-size:20px;
+}
+.rsRess input {
+    width:252px;
+    height:30px;
+    padding-left:8px;
+    border-radius: 2px;
+    border:1px solid rgba(8, 0, 0, 0.411);
+    margin-right:4px;
+}
+.addDet {
+    border: 1px solid rgba(8, 0, 0, 0.219);
+    background:#ccc;
+    overflow: hidden;
+    width:792px;
+    /* display: none; */
+}
+.addSure,.delSure{
+    width:794px;
+    padding:10px;
+    border: 1px solid rgba(8, 0, 0, 0.219);
+    margin-top:30px;
+}
+.addSure p{
+    color:red;
+    height:30px;
+    font-size:16px;
+}
+.delSure p {
+    color: red;
+    height: 30px;
+    font-size: 16px;
+}
+.tanBoxs {
+    width:100%;
+    height:782px;
+    z-index: 3;
+    background:rgba(0,0,0,0.6);
+    position: absolute;
+    left:0;
+    top:0;
+    display: none;
+}
+.tanMain{
+    width:300px;
+    height:200px;
+    background:#fff;
+    border-radius: 4px;
+    margin:200px auto;
+    position: relative;
+}
+.tanSuer{
+    width:100%;
+    height:30px;
+    line-height:30px;
+    margin-top:60px;
+    position: absolute;
+    left:30px;
+    font-size:20px;
+}
+.tanNo{
+    position: absolute;
+    display: inline-block;
+    width:60px;
+    height:30px;
+    line-height:30px;
+    text-align: center;
+    font-size:16px;
+    border-radius: 3px;
+    color:#fff;
+    background:#189f92;
+    bottom:30px;
+    right:30px;
+    cursor: pointer;
+}
+.tanYes{
+    position: absolute;
+    display: inline-block;
+    width:60px;
+    height:30px;
+    line-height:30px;
+    text-align: center;
+    font-size:16px;
+    border-radius: 3px;
+    color:#fff;
+    background:#189f92;
+    bottom:30px;
+    right:100px;
+    cursor: pointer;
+}
+.rsRess{
+    margin-top:30px;
+}
+.rsRess span{
+    margin-left:30px;
+    margin-right:20px;
+    font-size:16px;
+}
+.rsRess input{
+    height:40px;
+    width:280px;
+}
+.ressDel,.ressBtn{
+    width:70px;
+    height:40px;
+    line-height:40px;
+    text-align: center;
+    background:#1aa194;
+    border-radius: 4px;
+    color:#fff;
+    display: inline-block;
+    margin-top:40px;
+    font-size:16px;
+    margin-bottom:10px;
+}
+.ressDel{
+    /* background:yellow; */
+    
+}
+.ressBtn{
+    margin:0 30px;
+    margin-left:300px
+}

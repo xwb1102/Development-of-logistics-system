@@ -1,0 +1,19 @@
+body {
+
+  padding: 0;
+  font-family: sans-serif;
+}
+#main{
+  margin: 120px 0 0 60px;
+  width: 1000px;
+  height: 500px;
+}
+.bar{
+  margin-left:160px;
+  margin-top:210px;
+}
+#mainMap{
+  margin: 170px 0 0 300px;
+  width: 1000px;
+  height: 500px;
+}

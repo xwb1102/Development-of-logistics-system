@@ -1,0 +1,53 @@
+.firstP {
+    width:100%;
+    margin-top:20px;
+}
+.fHeader{
+    width:90%;
+    /* background:red; */
+    margin:0 auto;
+}
+.fLi{
+    width:200px;
+    height:120px;
+    background:rgba(111, 179, 224, 1);
+    border-radius: 6px;
+}
+.headBg{
+    display: inline-block;
+    width:100px;
+    height:100%;
+    float:left;
+    background: url(../img/icon-addp.png) no-repeat 26px 40px;
+    /* background:red; */
+}
+.fUl{
+  overflow: hidden;
+}
+.fUl li{
+    float:left;
+    margin-right:20px;
+}
+.fLi p{
+    display: inline-block;
+    float:right;
+    margin-top:34px;
+    margin-right:10px;
+    color:#fff;
+}
+.totO{
+    display: block;
+    width:90px;
+    text-align: center;
+    font-size:20px;
+}
+.totL{
+    width:90px;
+    display: block;
+    text-align: center;
+    margin-top:6px;
+}
+.tub{
+    margin-top:-72px;
+    margin-left:130px;
+}
